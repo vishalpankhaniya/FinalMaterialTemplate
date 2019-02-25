@@ -1,0 +1,325 @@
+@font-face {
+  font-family: 'work_sansblack';
+  src: url('../font/worksans-black-webfont.eot');
+  src: url('../font/worksans-black-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/worksans-black-webfont.woff2') format('woff2'),
+  url('../font/worksans-black-webfont.woff') format('woff'),
+  url('../font/worksans-black-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'work_sansbold';
+  src: url('../font/worksans-bold-webfont.eot');
+  src: url('../font/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/worksans-bold-webfont.woff2') format('woff2'),
+  url('../font/worksans-bold-webfont.woff') format('woff'),
+  url('../font/worksans-bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'work_sansregular';
+  src: url('../font/worksans-regular-webfont.eot');
+  src: url('../font/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/worksans-regular-webfont.woff2') format('woff2'),
+  url('../font/worksans-regular-webfont.woff') format('woff'),
+  url('../font/worksans-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+body{
+  margin: 0;
+  font-family: 'work_sansregular' !important;
+}
+h1 {
+  margin: 0;
+}
+.offerhead{
+  font-family: 'work_sansblack';
+  
+}
+.allheader{
+  font-family: 'work_sansbold';
+
+
+}
+
+.header{
+  background-color: #1e3d87;
+}
+.header1{
+  color: white;
+  list-style: none;
+  display: inline-block;
+}
+.header1 li{
+  display: inline-block;
+}
+.header1 li:last-child {
+  border-left:3px solid white;
+
+  padding: 5px;
+}
+.dropdown {
+  color: white;
+  display: inline-block;
+}
+.dropdown-toggle{
+  color: black;
+  margin: 0;
+}
+.mdc-button{
+  border-radius: 5px;
+  margin: 1px;
+  height: inherit;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+.call{
+  margin-left: 143px;
+}
+
+.sign{
+  background-color: #ebaf41;
+  background-image: linear-gradient(#f5e67b,#e6a02a);
+  margin-right:  0px;
+  padding: 10px;
+  margin-left: 150px;
+  
+  
+}
+.sign1{
+  background-color: #ebaf41;
+  background-image: linear-gradient(#f5e67b,#e6a02a);
+  margin-left: -50px;
+  height: 39px;
+  border-radius: 0px 5px 5px 5px;
+
+
+}
+.register{
+
+  background-color:  #ee8551;
+  background-image: linear-gradient(#ee8551,#e6573f);
+  margin: 0;
+  padding: 10px;
+}
+.sec1{
+  background-color: #32468f;
+  height: inherit;
+}
+.list1 li{
+  color: white;
+  display: inline-block;
+
+}
+.mdc-list-item {
+  display: inline-block;
+}
+.mdc-top-app-bar__section{
+  display: inline-block;
+}
+.currency{
+  background-color: lightgray;
+  color: black;
+  margin: 10px;
+  margin-top: -47px;
+}
+.mdc-button:not(:disabled) {
+  color: white;
+}
+.sec3{
+  background-color: #ffffff;
+
+}
+.l1{
+  margin-top: 50px;
+}
+/*.l2{
+  margin-top: 30px;
+  }*/
+  .logo{
+    width: 52%;
+    height: 100%;
+    float: right;
+  }
+  .sec4{
+    background-color: #3e8ac4;
+  }
+  .search input[type=text]{
+    width: 50%;
+    /*height:200px;*/
+    padding: 10px;
+    margin: 20px;
+
+  }
+  .mdc-layout-grid {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding:0;
+    padding: var(0, 0);
+  }
+  .section1{
+    background-image: url("../image/2.jpg");
+    height: 500px;
+    width: 100%;
+    /*background-repeat: no-repeat;*/
+    position: relative;
+  }
+  .header_bottom{
+    position: absolute;
+  }
+  .summer{
+    padding:  250px;
+    color: white;
+  }
+
+  .bgimg{
+    background-image: url("../images/cover3.jpg");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+  }
+  .red{
+    background-color: #ce1e36 !important;
+    border-color:#ce1e36 !important;
+  }
+
+  .yellow{
+    background-color: #e2a632 !important;
+    border-color:#e2a632 !important;
+  }
+  .blue{
+    background-color:#387abd !important;
+    border-color:#387abd !important;
+  }
+  .purple{
+    background-color:#4a3084 !important;
+    border-color:#4a3084!important;
+  }
+  .redish{
+    background-color:#9b1644 !important;
+    border-color:#9b1644 !important;
+  }
+  .darkblue{
+    background-color:#1a347a !important;
+    border-color:#1a347a!important;
+  }
+  .b1{
+    background-color: white;
+    text-align:center;
+    margin:5px; 
+    padding: 5px;
+  }
+
+
+  .cityhead1{
+    background-color:#e7a333;
+    color: white;
+    border:1px solid #e7a333;
+    height:50px;
+    text-align: center;
+  }
+  .citysec1{
+    border:1px solid #e7a333;
+  }
+  .citycontent1{
+    padding: 10px;
+  }
+
+  .cityhead2{
+    background-color:#a51a45;
+    color: white;
+    border:1px solid #a51a45;
+    height:50px;
+    text-align: center;
+  }
+  .citysec2{
+    border:1px solid #a51a45;
+  }
+  .citycontent2{
+    padding: 10px;
+  }
+
+  .cityhead3{
+    background-color:#387abd;
+    color: white;
+    border:1px solid #387abd;
+    height:50px;
+    text-align: center;
+  }
+  .citysec3{
+    border:1px solid #387abd;
+  }
+  .citycontent3{
+    padding: 10px;
+  }
+
+  .cityhead4{
+    background-color:#462f81;
+    color: white;
+    border:1px solid #462f81;
+    height:50px;
+    text-align: center;
+  }
+  .citysec4{
+    border:1px solid #462f81;
+  }
+  .citycontent4{
+    padding: 10px;
+  }
+
+
+  .cityhead5{
+    background-color:#1a357c;
+    color: white;
+    border:1px solid #1a357c;
+    height:50px;
+    text-align: center;
+  }
+  .citysec5{
+    border:1px solid #1a357c;
+  }
+  .citycontent5{
+    padding: 10px;
+  }
+  .our-mission{
+    background-color: #f3f3f3 !important;
+  }
+  .img-our-mission{
+    border-radius: 164px;
+    border:2px solid #d11f33;
+  }
+  .btn{
+    background-color:#d11f33 !important;
+    color: white !important;
+  }
+  .card-content{
+    padding: 10px;
+  }
+  .img-review{
+    border-radius: 164px;
+    text-align: center;
+  }
+  .footer{
+    background-color:#3f3f41;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+  }
+  .list1{
+    line-height:50px;
+  }
+  .foo-content-1{
+    color: white;
+    font-size: 12px;
+  }
