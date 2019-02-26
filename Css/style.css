@@ -32,6 +32,32 @@
   font-style: normal;
 
 }
+#login{
+  color: black !important;
+}
+
+.header_top{
+  background-color: #364890;
+  
+}
+
+select{
+  border-radius: 5px;
+  background-color: white;
+  height:30px;
+}
+.number{
+  color: white;
+  margin-top: 10px;
+}
+.list1{
+  color: white;
+}
+.mdc-top-app-bar__section--align-end{
+  float: right;
+  margin-top: 5px;
+}
+
 body{
   margin: 0;
   font-family: 'work_sansregular' !important;
@@ -45,8 +71,6 @@ h1 {
 }
 .allheader{
   font-family: 'work_sansbold';
-
-
 }
 
 .header{
@@ -92,8 +116,7 @@ h1 {
   margin-right:  0px;
   padding: 10px;
   margin-left: 150px;
-  
-  
+
 }
 .sign1{
   background-color: #ebaf41;
@@ -170,7 +193,6 @@ h1 {
     background-image: url("../image/2.jpg");
     height: 500px;
     width: 100%;
-    /*background-repeat: no-repeat;*/
     position: relative;
   }
   .header_bottom{
@@ -219,6 +241,7 @@ h1 {
     text-align:center;
     margin:5px; 
     padding: 5px;
+    padding-bottom: 15px;
   }
 
 
@@ -277,8 +300,6 @@ h1 {
   .citycontent4{
     padding: 10px;
   }
-
-
   .cityhead5{
     background-color:#1a357c;
     color: white;
@@ -316,10 +337,7 @@ h1 {
     padding-top: 20px;
     margin-top: 30px;
   }
-  .list1{
-    line-height:50px;
-  }
   .foo-content-1{
     color: white;
     font-size: 12px;
-  }
+  }                                                                                                                                   
